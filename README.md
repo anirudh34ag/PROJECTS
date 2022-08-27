@@ -1,2 +1,12 @@
-This project is a fun little set of lines of codes that lets the user give an upper limit and then lets him guess the number between 1 and the limit decided by the user.
-It also returns the number of tries user takes to decide the number.
+This repo contains various projects that i have worked or created !
+<h2 align="left">
+ <abc>
+  <br>Hi there! <img src="https://user-images.githubusercontent.com/42378118/110234147-e3259600-7f4e-11eb-95be-0c4047144dea.gif" width="30"><br>
+  <br> I'm Anirudh Agrahar, these are some of my projects! :computer:<br>
+  <br>
+    <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
+ </abc>
+</h2> 
+
+
+
