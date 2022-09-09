@@ -1,0 +1,62 @@
+
+
+<!doctype html>
+<html lang="en">
+{% load static %}
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+
+    <br><br>
+    <br><br>
+    <br><br>
+
+    
+
+    <title>Anirudh Agrahari</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    
+
+    
+    
+  </head>
+
+  <body>
+
+    
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Work Details</h1>
+          <p class="lead text-muted">{{ Job.summary}}</p>
+          <img src = {{Job.image.url }} alt = "IMAGE BROKEN" height = 314 style="border:5px solid black"></img>
+          <p>
+            <a href="{% url 'home' %}" class = "btn btn-primary my-2"> BACK </a>
+            
+          </p>
+          
+        </div>
+        <br><br>
+    
+      </section>
+
+      
+
+    </main>
+
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src= "{% static 'jquery-3.6.1.min.js' %}" ></script>
+    <script src= "{% static 'popper.min.js' %}"></script>
+    <script src= "{% static 'js/bootstrap.min.js' %}" ></script>
+</html>
